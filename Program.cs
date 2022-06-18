@@ -12,6 +12,11 @@ namespace ConsoleApp1
             string[] astr = { "Ola", "ola", "Tango" };
             str.AddRange(astr);
             Console.WriteLine(str[0].ToLower().Equals(str[1].ToLower()));
+            
+
+            string numberToWords=SurroundingClass.changeToWords("20050000");
+            Console.WriteLine(numberToWords);
+
             Console.ReadKey();
         }
     }
